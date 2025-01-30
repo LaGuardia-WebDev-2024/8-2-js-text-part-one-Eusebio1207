@@ -8,9 +8,8 @@ html {
 }
 
 body {
-  background: radial-gradient(#b6ecba 5px, 
-      whitesmoke 10px 65px, #b6ecba 1px );
-  background-size: 100px 100px 
+  background: radial-gradient(#b6ecba 5px, whitesmoke 10px 65px, #b6ecba 1px);
+  background-size: 100px 100px;
 }
 
 h1,

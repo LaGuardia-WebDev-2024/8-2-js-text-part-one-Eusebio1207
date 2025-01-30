@@ -1,6 +1,14 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup(){
   size(600, 400); 
+  background(146, 129, 201);
+  
+  fill(181,38,79);
+  textSize(20);
+  text("My Favorite Foods", 200, 60);
+  
+  textSize(15);
+  text("Click anywhere to find out!", 200, 100); 
 }
 
 //🎯Variable Declarations Go Here
@@ -8,10 +16,10 @@ void setup(){
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
-  background(255,255,255);
-  
+    
   if(mousePressed){
-    showXYPositions();
+    fill(random(0,255), random(0,255), random(0,255));
+    text("chipotle!", random(-100,600), random(-100,500))
   }
   
 };
