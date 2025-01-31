@@ -4,23 +4,36 @@ void setup(){
 }
 
 //🎯Variable Declarations Go Here
-
+var tSize = 10;
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
-    
-  if(mousePressed){
-    showXYPositions();
-  }
+  background(255,255,255);
 
   //🎯New Text Code Should Go Here 🡻
-  textSize(50);
+  textSize(tSize);
   fill(0, 200, 15);
   text("my favorite food" ,99, 100);
   text("chopped cheese" ,99, 140);
   text("pizza" ,99, 180);
   text("ribs" ,99, 220);
+  
+  if(keyPressed){
+    console.log(key);
+    if(key == "B" || key == "b" || key == 98 || key == 66){
+      tSize ++;
+    }
+     if(key == "S" || key == "s" || key == 155 || key == 83){
+      tSize --;
+    }
+  }
 };
+
+void keyPressed(){
+  if(key === "B" || key === "b"){
+    tSize ++;
+  }
+}
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
 void mousePressed(){
