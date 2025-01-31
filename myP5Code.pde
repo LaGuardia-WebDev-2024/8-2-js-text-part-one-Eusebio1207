@@ -14,7 +14,12 @@ draw = function(){
   }
 
   //🎯New Text Code Should Go Here 🡻
-  
+  textSize(50);
+  fill(0, 200, 15);
+  text("my favorite food" ,99, 100);
+  text("chopped cheese" ,99, 140);
+  text("pizza" ,99, 180);
+  text("ribs" ,99, 220);
 };
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
