@@ -23,7 +23,7 @@ draw = function(){
     if(key == "B" || key == "b" || key == 98 || key == 66){
       tSize ++;
     }
-     if(key == "S" || key == "s" || key == 155 || key == 83){
+     if(key == "S" || key == "s" || key == 115 || key == 83){
       tSize --;
     }
   }
